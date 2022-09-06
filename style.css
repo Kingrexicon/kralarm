@@ -1,0 +1,21 @@
+*{
+    /* border:1px ridge rgb(221, 12, 47); */
+/* background-color: rgba(67, 33, 27, 0.392); */
+    text-align: center;
+    font-family: cursive;
+
+}
+
+body{
+    background-image: url(./spiral.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+}
+section{
+    width: 100%;
+
+    /* background-color: rgba(61, 64, 67, 0.794); */
+}
+

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class=" 0pacity-50 " onload="whatSyourName()">
+    <div class="bg-white opacity-50  d-flex flex-column justify-content-center align-items-center">
+        <section class="shadow d-flex justify-content-between">
+            <h2> <a href="#" class="nav-link text-dark"> Alarm</a></h2>
+            <h2><a href="doc.html" class="nav-link text-dark">Doc </a> </h2>
+        </section >
+        <div class="row my-5 py-5 opacity-75" style="height: 75vh;">
+            <div class="col-8 mx-auto">
+                <h2 class="bg-white " id="names">
+                    Hello 🖐
+                </h2>
+                <H5 class=""> i'mma be your Online alarm to help you get things done at the right time</H5>
+                <div class="bg-white fs-3" id="wall"></div>
+
+                <div id="showTheTime" style="font-size: 20px;" ></div>
+                <br><br>
+                <div class=" d-flex justify-content-between">
+                    <input type="number" class="w-50" placeholder="hours" id="hours">
+                    <input type="number" class="w-50" placeholder="minutes" id="minutes">
+                </div>
+                <!-- <input type="text" placeholder="seconds" id="seconds"> -->
+                <div class="btn"> <button onclick="check()">
+                        set
+                    </button>
+                    <button onclick="stop()"> stop</button>
+                </div>
+            </div>
+        </div>
+<div class=""></div>
+      
+</body>
+<script src="alarm.js"></script>
+<script src="bootstrap.js"></script>
+
+</html>
